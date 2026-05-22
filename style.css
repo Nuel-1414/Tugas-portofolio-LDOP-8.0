@@ -1,4 +1,4 @@
-
+/* Tampilan Khusus Dekstop */
 * {
     margin: 0;
     padding: 0;
@@ -117,4 +117,42 @@ footer {
 
 .sosmed-footer a:hover {
     color: lightblue;  
+}
+
+/* --- TAMPILAN KHUSUS HP & IPHONE --- */
+@media screen and (max-width: 768px) {
+    
+    nav {
+        padding: 15px 20px;
+    }
+    
+    .nav-kiri {
+        font-size: 20px;
+    }
+    
+    .nav-kanan {
+        gap: 15px; 
+    }
+
+    
+    .home {
+        flex-direction: column-reverse; 
+        text-align: center; 
+        padding: 40px 20px;
+        min-height: auto;   
+        gap: 30px;          
+    }
+
+    .home-kiri h1 {
+        font-size: 32px; 
+    }
+    
+    .sosmed {
+        justify-content: center; 
+    }
+
+    .foto {
+        width: 65%; 
+        max-width: 250px; 
+    }
 }
