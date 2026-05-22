@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    color: darkblue;
+    padding: 15px 40px; 
+    position: sticky;
+    top: 0; 
+    z-index: 100;
+}
+
+.nav-kiri {
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.nav-kanan {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-kanan a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 500;
+}
+
+.nav-kanan a:hover {
+    text-decoration: underline;
+}
+
+.home {
+    background-color: lightblue;
+    color: darkblue;
+    display: flex;          
+    align-items: center;    
+    justify-content: space-between;
+    padding: 50px 40px;     
+    min-height: 80vh;       
+}
+
+.home-kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;               
+}
+
+.home-kiri h1 {
+    font-size: 48px;        
+}
+
+.home-kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;                
+}
+
+.foto {
+    width: 60%;           
+    height: auto;
+    border-radius: 15px;    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue; 
+    color: white;
+    padding: 15px;
+}
+
+
+.sosmed {
+    display: flex;
+    gap: 15px;        
+    margin-top: 15px;  
+}
+
+.sosmed a {
+    color: darkblue;   
+    font-size: 28px;   
+    transition: 0.3s;  
+}
+
+.sosmed a:hover {
+    color: white;      
+    transform: translateY(-3px); 
+}
+
+footer {
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.sosmed-footer {
+    display: flex;
+    gap: 15px;
+}
+
+.sosmed-footer a {
+    color: white;      
+    font-size: 20px;
+}
+
+.sosmed-footer a:hover {
+    color: lightblue;  
+}
